@@ -5,5 +5,5 @@ export const formatMonthAndDay = (date: Date | string): string => {
 }
 
 export const formatTime = (date: Date | string): string => {
-  return dateFns.format(date, 'h:mm a').toLowerCase();
+  return `${dateFns.format(date, 'h:mm a')} 🕐`;
 }

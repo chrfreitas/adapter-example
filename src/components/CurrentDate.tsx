@@ -7,6 +7,10 @@ export const CurrentDate = () => {
   const currentTimeFormatted = formatTime(today);
 
   return (
-    <div className="text-center text-4xl font-bold italic">It's {currentTimeFormatted} on {currentDateFormatted}</div>
+    <div className="flex items-center justify-center min-h-screen">
+      <div className="text-center text-4xl font-bold italic text-neutral-900">
+        It's {currentTimeFormatted} on {currentDateFormatted}
+      </div>
+    </div>
   );
 };
