@@ -1,11 +1,12 @@
 import React from 'react';
-import { formatMonthAndDay } from '../adapters/dataAdapter';
+import { formatMonthAndDay, formatTime } from '../adapters/dataAdapter';
 
 export const CurrentDate = () => {
   const today = new Date();
   const currentDateFormatted = formatMonthAndDay(today);
+  const currentTimeFormatted = formatTime(today);
 
   return (
-    <div>It's 1pm on {currentDateFormatted}</div>
+    <div>It's {currentTimeFormatted} on {currentDateFormatted}</div>
   );
 };
