@@ -7,6 +7,6 @@ export const CurrentDate = () => {
   const currentTimeFormatted = formatTime(today);
 
   return (
-    <div>It's {currentTimeFormatted} on {currentDateFormatted}</div>
+    <div className="text-center text-4xl font-bold italic">It's {currentTimeFormatted} on {currentDateFormatted}</div>
   );
 };
