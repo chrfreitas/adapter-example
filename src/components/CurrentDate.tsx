@@ -8,7 +8,7 @@ export const CurrentDate = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <div className="text-center text-4xl font-bold italic text-neutral-900">
+      <div className="text-center text-4xl font-bold text-neutral-900">
         It's {currentTimeFormatted} on {currentDateFormatted}
       </div>
     </div>
